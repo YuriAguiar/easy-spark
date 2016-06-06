@@ -44,7 +44,7 @@ Now you can access the web page below and see the results
 http://localhost:4567/simple/hello
 ```
 
-For default, EasySpark create a different URL to each method following the pattern:
+By default, EasySpark create a different URL to each method following the pattern:
 
 ```java
 http://host:port/controller/method
@@ -103,7 +103,7 @@ public class SimpleController {
 
 To test, access http://localhost:4567/hello/Hello!
 
-EasySpark also automatically inject Spark Request and Response instances. Access http://sparkjava.com/documentation.html to more infomations about Request and Response functions. So you can do that:
+EasySpark also automatically inject Spark Request and Response instances. Access http://sparkjava.com/documentation.html for more infomation about Request and Response functions. So you can do this:
 
 ```java
 @Controller
